@@ -13,24 +13,21 @@
 $ git clone https://github.com/Kosuke13ama/robosys2025.git
 ```
 
-## 使い方
-このプログラムは実行権限を与えて使用します。
-
-```
-$ chmod +x kansuuji
-```
+## 漢数字変換コマンド
 
 **実行方法の例**<br>
 * 単純な数値を変換する場合<br>
 
 ```
-$ echo 12345 | ./kansuuji 一万二千三百四十五
+$ echo 12345 | ./kansuuji
+一万二千三百四十五
 ```
 
 * 文章の中の数値を変換する場合<br>
 
 ```
-$ echo "今年は2025年です" | ./kansuuji 今年は二千二十五年です
+$ echo "今年は2025年です" | ./kansuuji
+今年は二千二十五年です
 ```
 
 ## 必要なソフトウェア
@@ -40,7 +37,7 @@ $ echo "今年は2025年です" | ./kansuuji 今年は二千二十五年です
 
 ## テスト環境
 
-- Ubuntu 20.04 LTS / 22.04 LTS
+- Ubuntu 24.04.3 LTS
 
 ## ライセンス
 
