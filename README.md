@@ -17,20 +17,20 @@ $ git clone https://github.com/Kosuke13ama/robosys2025.git
 このプログラムは実行権限を与えて使用します。
 
 ```
-$ chmod +x kanji
+$ chmod +x kansuuji
 ```
 
 **実行方法の例**<br>
 * 単純な数値を変換する場合<br>
 
 ```
-$ echo 12345 | ./kanji 一万二千三百四十五
+$ echo 12345 | ./kansuuji 一万二千三百四十五
 ```
 
 * 文章の中の数値を変換する場合<br>
 
 ```
-$ echo "今年は2025年です" | ./kanji 今年は二千二十五年です
+$ echo "今年は2025年です" | ./kansuuji 今年は二千二十五年です
 ```
 
 ## 必要なソフトウェア
